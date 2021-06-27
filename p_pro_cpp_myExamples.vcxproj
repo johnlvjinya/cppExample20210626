@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\lvjinya\Desktop\p_pro_cpp_myExamples\myinclude;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\lvjinya\Desktop\p_pro_cpp_myExamples\myinclude;C:\Users\lvjinya\Desktop\p_pro_cpp_myExamples;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -146,6 +146,7 @@
     <ClInclude Include="s01_csv_write_by_csv2.h" />
     <ClInclude Include="s01_csv_write.h" />
     <ClInclude Include="s02_csv_read_by_csv2.h" />
+    <ClInclude Include="s03_or_tools_test01.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

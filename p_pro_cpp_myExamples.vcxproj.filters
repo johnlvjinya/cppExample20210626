@@ -29,5 +29,8 @@
     <ClInclude Include="s02_csv_read_by_csv2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="s03_or_tools_test01.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
