@@ -31,6 +31,8 @@ int main_json_test01() {
     };
     cout <<"j1==>"<< typeid(j1).name() << "\n" << j1 <<endl;
 
+    cout << "得到json中的值==>" << j1["object"] << "\n" << j1 << endl;
+
     // C++11 auto可以在声明变量的时候根据变量初始值的类型自动为此变量选择匹配的类型
     auto j2 = R"({"happy": true,"pi": 3.141})"_json;
     cout << "j2==>" << typeid(j2).name() << "\n" << j2 << endl;
