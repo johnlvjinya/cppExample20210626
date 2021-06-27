@@ -143,6 +143,7 @@
     <ClCompile Include="s00_main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="s04_prime_number_cost_time.h" />
     <ClInclude Include="s01_csv_write_by_csv2.h" />
     <ClInclude Include="s01_csv_write.h" />
     <ClInclude Include="s02_csv_read_by_csv2.h" />
