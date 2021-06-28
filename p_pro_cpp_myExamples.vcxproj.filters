@@ -35,5 +35,8 @@
     <ClInclude Include="s04_prime_number_cost_time.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="s05_logger_test01.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
